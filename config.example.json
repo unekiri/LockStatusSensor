@@ -1,0 +1,8 @@
+{
+    "mqtt": {
+        "broker": "192.168.1.10",
+        "port": 1883,
+        "topic": "lock/status",
+        "client_id": "test_sensor"
+    }
+} 
