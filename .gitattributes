@@ -1,0 +1,14 @@
+# デフォルトでLFを使用
+* text=auto eol=lf
+
+# WindowsのバッチファイルはかならずCRLF
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf
+
+# バイナリファイルは改行コード変換しない
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.zip binary
+*.pdf binary 
