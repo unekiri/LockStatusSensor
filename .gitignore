@@ -33,3 +33,5 @@ ENV/
 # Project specific
 config.json
 *.log 
+# モックセンサーの状態ファイル
+mock_state

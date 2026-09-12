@@ -3,6 +3,18 @@
         "broker": "192.168.3.13",
         "port": 1883,
         "topic": "lock/status",
-        "client_id": "test_sensor"
-    }
-} 
+        "availability_topic": "lock/availability",
+        "client_id": "lock_sensor",
+        "username": null,
+        "password": null
+    },
+    "gpio": {
+        "mock": false,
+        "mock_state_file": "mock_state",
+        "locked_pin": 17,
+        "unlocked_pin": 27,
+        "bounce_seconds": 0.05
+    },
+    "poll_seconds": 1.0,
+    "heartbeat_seconds": 60
+}
