@@ -1,0 +1,4 @@
+# 開発機で classify() / Debounced の単体テストを回すためだけのもの。
+# ESP32 側は MicroPython なので pip は使わない（README のセットアップ参照）。
+pytest>=8.0
+mpremote>=1.22
