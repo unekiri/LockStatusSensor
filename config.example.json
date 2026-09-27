@@ -1,8 +1,25 @@
 {
+    "wifi": {
+        "ssid": "your-ssid",
+        "password": "your-password"
+    },
     "mqtt": {
         "broker": "192.168.1.10",
         "port": 1883,
         "topic": "lock/status",
-        "client_id": "test_sensor"
-    }
-} 
+        "availability_topic": "lock/availability",
+        "client_id": "lock_sensor",
+        "username": null,
+        "password": null,
+        "keepalive_seconds": 180
+    },
+    "gpio": {
+        "mock": false,
+        "mock_state_file": "mock_state",
+        "locked_pin": 32,
+        "unlocked_pin": 33,
+        "bounce_ms": 50
+    },
+    "poll_seconds": 0.2,
+    "heartbeat_seconds": 60
+}
